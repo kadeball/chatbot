@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Switch>
       <Route path='/'  component={Welcome}  exact/>
-      <Route path='/Page1'  component={Page1}  exact/>
+      <Route path='/Page1'  component={Page1}  />
       <Route path='/Page2'  component={Page2}  exact/>
       <Route path='/Page3'  component={Page3}  exact/>
       <Route path='/Page4'  component={Page4}  exact/>
